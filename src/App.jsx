@@ -1,7 +1,14 @@
-import React from 'react';
-import { getMovies } from './helpers/getMovies';
+import { Characters } from './components/Characters';
+import { MoviesContainer } from './components/MoviesContainer';
 
 export const App = () => {
-	getMovies();
-	return <div>App</div>;
+	return (
+		<div>
+			<h1>One Piece</h1>
+			<div className="container">
+				<MoviesContainer />
+				<Characters />
+			</div>
+		</div>
+	);
 };

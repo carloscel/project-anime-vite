@@ -9,7 +9,6 @@ export const getMovies = async () => {
 		title: movie.title,
 		url: movie.images.jpg.image_url,
 	}));
-
 	console.log(movies);
 
 	return movies;
