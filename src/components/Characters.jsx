@@ -1,3 +1,8 @@
+import { getCharacter } from '../helpers/getCharacter';
+
 export const Characters = () => {
-	return <div>Character</div>;
+	//const { characters } = getCharacter();
+	//console.log(characters);
+
+	return <div>character</div>;
 };

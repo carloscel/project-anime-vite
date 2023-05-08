@@ -1,6 +1,7 @@
 import axios from 'axios';
 
 export const getCharacter = async (id) => {
+	console.log(id);
 	const url = `https://api.jikan.moe/v4/anime/${id}/characters`;
 	const { data } = await axios(url);
 
